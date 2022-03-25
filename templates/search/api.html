@@ -63,6 +63,7 @@
 
 <h2>Version history</h2>
 <ul>
+	<li><time>2020-03-25</time> Version 2.2 - Adding data-fusion-query=”safe” is added in the input field</li>
 	<li><time>2020-02-12</time> Version 2.1 - Advanced search is added under pagination tab</li>
 	<li><time>2019-02-06</time> Version 2 - Search results, Contextualized search result, Faceted results</li>
 	<li><time>2013-01-01</time> Version 1 - Undocumented search results template. Associated with the version 1.x of the Canada.ca Content and IA specification</li>
@@ -117,7 +118,7 @@
 &lt;form&gt;
 	&lt;label class="wb-inv" for="sch-inp"&gt;Search Government of Canada websites&lt;/label&gt;
 	&lt;div class="input-group mrgn-tp-lg"&gt;
-		&lt;input spellcheck="false" autocomplete="off" id="sch-inp" class="form-control" type="search" /&gt;
+		&lt;input spellcheck="false" autocomplete="off" id="sch-inp" class="form-control" type="search" data-fusion-query="safe" /&gt;
 		&lt;span class="input-group-btn"&gt;
 			&lt;button type="submit" class="btn btn-primary"&gt; &lt;span class="glyphicon-search glyphicon"&gt;&lt;/span&gt;&lt;span class="wb-inv"&gt;Search&lt;/span&gt;&lt;/button&gt;
 		&lt;/span&gt;
@@ -131,7 +132,7 @@
 &lt;div class="well"&gt;
 	&lt;form class="mrgn-tp-sm"&gt;
 		&lt;label class="wb-inv" for="sch-inp"&gt;Search Government of Canada websites&lt;/label&gt;
-		&lt;input class="form-control full-width" spellcheck="false" autocomplete="off" dir="ltr" id="sch-inp" name="q" type="search"&gt;
+		&lt;input class="form-control full-width" spellcheck="false" autocomplete="off" dir="ltr" id="sch-inp" name="q" type="search" data-fusion-query="safe"&gt;
 		&lt;div class="mrgn-tp-md"&gt;
 			&lt;p class="wb-inv"&gt;See results from:&lt;/p&gt;
 			&lt;ul class="radio-inline list-inline mrgn-lft-sm"&gt;
@@ -190,7 +191,7 @@
 &lt;div class="well"&gt;
 	&lt;form class="mrgn-tp-sm"&gt;
 		&lt;label class="wb-inv" for="sch-inp"&gt;Search Government of Canada websites&lt;/label&gt;
-		&lt;input class="form-control full-width" spellcheck="false" autocomplete="off" dir="ltr" id="sch-inp" name="q" type="search"&gt;
+		&lt;input class="form-control full-width" spellcheck="false" autocomplete="off" dir="ltr" id="sch-inp" name="q" type="search" data-fusion-query="safe"  &gt;
 		&lt;div class="mrgn-tp-md"&gt;
 			&lt;p class="wb-inv"&gt;See results from:&lt;/p&gt;
 			&lt;ul class="list-inline mrgn-lft-sm pull-left"&gt;
